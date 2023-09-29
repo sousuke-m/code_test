@@ -1,3 +1,3 @@
 # code_test
 -------------------------------------------------------------------------------------------------------------
-URL:``https://sousuke-m.github.io/code_test/``
+URL:``https://sousuke-m.github.io/code_test/サンプルデータ``
