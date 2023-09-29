@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+table.sample1 {
+	border-collapse: collapse;
+	margin-bottom: 2em;
+}
+table.sample2 {
+	border-collapse: separate;
+}
+table,th,td {
+	border: 2px solid #cc3333;
+}
+caption {
+	font-family: helvetica, sans-serif;
+	font-weight: bolder;
+}

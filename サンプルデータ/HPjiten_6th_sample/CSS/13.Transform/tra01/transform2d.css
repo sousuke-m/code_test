@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+div {
+	padding: 5px;
+	position: absolute;
+	width: 150px;
+	height: 20px;
+	background-color: #87ceeb;	
+	font-weight: bold;
+}
+#sample {
+	transform: translate(150px, 150px) rotate(45deg) scale(2, 1.5);
+}
+

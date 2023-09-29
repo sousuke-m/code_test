@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+div {
+	margin: 30px;
+	padding: 1em;
+	width: 250px;
+	height: 30px;
+}
+#sample1 {
+	color: #000000;
+	border: 55px solid #cd853f;
+	border-image-source: url("woodframe.jpg");
+	border-image-slice: 55;
+	border-image-width: auto;
+}
+#sample2 {
+	color: #ffffff;
+	border-width: 55px 25px;
+	border-style: solid;
+	border-color: #cd853f;
+	border-image-source: url("woodframe.jpg");
+	border-image-slice: 55 fill;
+	border-image-width: 55px 25px;
+}

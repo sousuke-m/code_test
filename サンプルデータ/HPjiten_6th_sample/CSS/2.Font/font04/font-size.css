@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+p {
+	margin: 0;
+	padding: 0;
+}
+p#note {
+	color: #cc0000;
+}
+div {
+	margin-top: 1em;
+}
+#sample1 {
+	font-size: xx-small;
+}
+#sample2 {
+	font-size: x-small;
+}
+#sample3 {
+	font-size: small;
+}
+#sample4 {
+	font-size: medium;
+}
+#sample5 {
+	font-size: large;
+}
+#sample6 {
+	font-size: x-large;
+}
+#sample7 {
+	font-size: xx-large;
+}
+#sample8 {
+	font-size: larger;
+}
+#sample9 {
+	font-size: smaller;
+}
+#sample10 {
+	font-size: 15pt;
+}
+#sample11 {
+	font-size: 2em;
+}
+#sample12 {
+	font-size: 120%;
+}
+#sample13 {
+	font-size: 75%;
+}

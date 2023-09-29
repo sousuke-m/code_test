@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+		margin: 0px;
+}
+div {
+	margin: 0px;
+	width: 150px;
+	height: 150px;
+	color: #ffffff;
+	font: 24px Impact, "sans-serif";
+}
+#static {
+	position: static;
+	top: 0px;
+	left: 150px;
+	background-color: #ff0000;
+}
+#relative {
+	position: relative;
+	top: 0px;
+	left: 150px;
+	background-color: #009966;
+}
+#absolute {
+	position: absolute;
+	top: 0px;
+	left: 150px;
+	background-color: #ffcc00;
+}
+#fixed {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	background-color: #3399ff;
+}
+

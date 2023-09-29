@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+}
+div {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	color: #ffffff;
+	font: 24px Impact, "sans-serif";
+}
+#sample1 {
+	top: 120px;
+	left: 130px;
+	z-index: 2;
+	background-color: #ff0000;
+}
+#sample2 {
+	top: 60px;
+	left: 40px;
+	z-index: 3;
+	background-color: #ffcc00;
+}
+#sample3 {
+	top: 20px;
+	left: 170px;
+	z-index: 1;
+	background-color: #009966;
+}

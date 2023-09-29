@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+img {
+	visibility: hidden;
+}
+table {
+	margin: 15px auto 10px auto;
+	border: 1px solid #a9a9a9;
+}
+td {
+	border: 1px solid #a9a9a9;
+}
+#main {
+	border: 4px double #996600;
+	width: 400px;
+}
+#image {
+	margin:10px;
+	text-align: center;
+}
+#collapse {
+	visibility: collapse;
+}	

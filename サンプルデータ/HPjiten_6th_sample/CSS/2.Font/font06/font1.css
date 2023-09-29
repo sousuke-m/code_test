@@ -1,0 +1,13 @@
+﻿@charset "UTF-8";
+
+h1 {
+	font: x-large/150% Impact, sans-serif;
+	color: #990000;
+}
+p {
+	font: medium/150% "ＭＳ Ｐゴシック", Osaka, sans-serif;
+}
+span {
+	font: bold 1em Arial, Helvetica, sans-serif;
+	color: #cc6699;
+}

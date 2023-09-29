@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>メニューの選択項目をグループ化したい</title>
+</head>
+<body>
+<form action="cgi-bin/formsample.cgi" method="post">
+	<p>よくお使いのシャンプーは？</p>
+	<select name="shampoo">
+		<optgroup label="モイストシリーズ">
+			<option label="リッチ" value="rm">リッチモイスト</option>
+			<option label="スーパーリッチ" value="srm">スーパーリッチモイスト</option>
+			<option label="シルキー" value="sm">シルキーモイスト</option>
+		</optgroup>
+		<optgroup label="ダメージケアシリーズ">
+			<option label="リペア" value="dr">ダメージケア リペア</option>
+			<option label="ウルトラリペア" value="udr">ダメージケア ウルトラリペア</option>
+		</optgroup>
+	</select>
+</form>
+</body>
+</html>

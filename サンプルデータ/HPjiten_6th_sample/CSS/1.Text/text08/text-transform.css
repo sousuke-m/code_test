@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+p {
+	line-height: 150%;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: none;
+}
+code {
+	color: #cc00cc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: medium;
+}
+#sample1 {
+	text-transform: capitalize;
+}
+#sample2 {
+	text-transform: uppercase;
+}
+#sample3 {
+	text-transform: lowercase;
+}

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+div {
+	padding: 0 0.5em 0 0.5em;
+	border: solid 2px #0099cc;
+	width : 400px;
+}
+p {
+	line-height: 150%;
+}
+code {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: medium;
+}
+#sample1 {
+	text-align: left;
+}
+#sample2 {
+	text-align: center;
+}
+#sample3 {
+	text-align: right;
+}
+#sample4 {
+	text-align: justify;
+}
+#sample5 {
+	text-align: start;
+}
+#sample6 {
+	text-align: end;
+}

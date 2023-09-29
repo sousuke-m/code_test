@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+	background-image: url("bg8.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+div {
+	margin-top: 40px;
+	margin-left: 30px;
+}
+h1 { 
+	padding-left: 3px;
+	color: #009da5;
+	font-family: "Times New Roman", serif;
+	font-style: italic;
+}
+p { 
+	white-space: nowrap;
+}
+.us {
+	color: #c5003f;
+}

@@ -1,0 +1,15 @@
+﻿@charset "UTF-8";
+
+h1 {
+	color: #990000;	
+	font-family: Impact, sans-serif;
+}
+h2 {
+	color: #cc6699;
+}
+#family-name {
+	font-family: "ＭＳ Ｐ明朝", "Hiragino Mincho Pro", serif;
+}
+#generic-family {
+	font-family: sans-serif;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>空白や改行の表示方法を指定したい</title>
+<link rel="stylesheet" href="white-space-pre.css">
+</head>
+<body>
+<p>フェードインさせるスクリプト</p>
+<p class="sample"><code>
+function fadein(){
+	r_color = "000123456789abcd";
+	g_color = "0123456789abcdef";
+	b_color = "000123456879abcd";
+	for(i=0; i<16, i++){				//i=1からi=15まで繰り返す
+		r = r_color.charAt(i);			//配列r_colorのi文字目を取得
+		g = g_color.charAt(i);			//配列g_colorのi文字目を取得
+		b = b_color.charAt(i);			//配列b_colorのi文字目を取得
+		document.bgcolor = "#"+r+r+g+g+b+b;		//結合して背景色に設定
+	}
+}
+</code></p>
+</body>
+</html>
+
+
+

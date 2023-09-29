@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>どの項目が選択されているか調べたい</title>
+<script src="form02.js"></script>
+</head>
+<body>
+    <form action="" id="form1">
+        <p>メールの送信を希望しますか？</p>
+        <p>
+        <select id="select" onchange="changeSelect()">
+            <option selected="selected">希望しない</option>
+            <option>希望する</option>
+        </select>
+        </p>
+        <p>
+        メールアドレス入力:
+        <input type="text" id="text" disabled="disabled">
+        <input type="button" id="button" value="確認"
+             onclick="clickButton()" disabled="disabled"> 
+        </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>フォーム操作時に処理を行いたい</title>
+<script src="event03.js"></script>
+<link rel="stylesheet" href="event03.css">
+</head>
+<body>
+    <form action="submit.html"
+       onsubmit="return submitForm()" onreset="return resetForm()">
+        <table>
+		    <tr><th>商品</th><th>単価</th><th>注文数</th></tr>
+		    <tr><td>もも</td><td>4000円</td><td>
+		    <select id="momo" onchange="calcPrice()">
+			    <option>0</option>
+			    <option>1</option>
+			    <option>2</option>
+			    <option>3</option>
+		    </select>
+		    箱</td></tr>
+		    <tr><td>ぶどう</td><td>3000円</td><td>
+		    <select id="budou" onchange="calcPrice()">
+			    <option>0</option>
+			    <option>1</option>
+			    <option>2</option>
+			    <option>3</option>
+		    </select>
+		    箱</td></tr>
+		    <tr><td colspan="2">合計金額</td><td>
+		    <input type="text" id="output" value="0" size="6" readonly>
+		    円</td></tr>
+	    </table>
+	    <p>
+	    <input type="submit" id="submit" value="送信">
+	    <input type="reset" id="reset" value="クリア">
+	    </p>
+    </form>
+</body>
+</html>

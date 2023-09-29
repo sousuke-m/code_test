@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>入力候補のリストを作りたい</title>
+</head>
+<body>
+<form action="cgi-bin/formsample.cgi" method="post">
+	<p>
+		<input type="search" name="search" list="item" placeholder="サイト内検索">
+		<input type="submit" value="検索">
+	</p>
+	<datalist id="item">
+		<option value="コピペルナー"></option>
+		<option value="コピペルナーサーバー"></option>
+		<option value="SP改"></option>
+	</datalist>
+</form>
+</body>
+</html>

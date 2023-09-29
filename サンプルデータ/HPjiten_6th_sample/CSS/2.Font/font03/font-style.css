@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+h1 {
+	color: #990000;
+	font-style: italic;
+}
+blockquote {
+	color: #996666;
+	font-style: oblique;
+}
+

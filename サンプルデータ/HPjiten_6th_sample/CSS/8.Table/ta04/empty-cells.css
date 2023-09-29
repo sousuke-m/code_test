@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+table {
+	border-collapse: separate;
+	border-spacing: 10px;
+	border: 3px solid #000000;
+}
+td {
+	border: 2px solid #000000;
+	width: 70px;
+	height: 70px;
+	vertical-align: middle;
+	color: #009966;
+	font-family: Impact, sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+}
+td#show {
+	empty-cells: show;
+	border-color: #cc3300;
+}
+td#hide {
+	empty-cells: hide;
+}

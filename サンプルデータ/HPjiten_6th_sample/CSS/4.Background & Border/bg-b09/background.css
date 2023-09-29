@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+	background: url("bg4.jpg") repeat-y fixed #ffffff;
+}
+div {
+	margin-top: 60px;
+	margin-left: 60px;
+	width: 500px;
+	height: 300px;
+	background: url("sheep.png") 90% 95% / 100px no-repeat #f5f5dc; 
+}
+h1 {
+	padding-left: 5px;
+	color: #009da5;
+	font-family: "Comic Sans MS", san-serif;
+}
+p { 
+	padding: 0px 10px 5px 10px;
+	line-height: 150%;
+	color: #696969;
+}

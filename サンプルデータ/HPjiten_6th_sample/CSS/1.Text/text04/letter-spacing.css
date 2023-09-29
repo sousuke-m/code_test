@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+p {
+	color: #ff3366;
+	font-family: Impact, sans-serif;
+	font-size: 26px;
+	text-align: center;
+}
+#sample1 {
+	letter-spacing: normal;
+}
+#sample2 {
+	letter-spacing: 1em;
+}
+

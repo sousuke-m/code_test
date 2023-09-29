@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+div {
+	margin: 30px;
+	padding: 20px;
+	width: 200px;
+	height: 100px;
+	color: #ffffff;
+	background-color: #66ccff;
+}
+code {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+#sample1 {
+	border: 3px solid #3399ff;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 50px 70px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 50px 70px;
+	background-color: #66ccff;
+}
+#sample2 {
+	border-radius: 20px 50px / 20px 70px;
+	background-image: url("candy.jpg");
+}

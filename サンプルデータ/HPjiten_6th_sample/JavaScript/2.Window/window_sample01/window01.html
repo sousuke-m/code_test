@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>別のウィンドウを操作したい</title>
+<script src="window01.js"></script>
+</head>
+<body onload="openWin()">
+    <p>
+        <b>サブウィンドウの背景色を変更します</b>
+        <select onchange="changeColor(selectedIndex)">
+            <option selected="selected">選択してください</option>
+            <option>白</option>
+            <option>赤</option>
+            <option>緑</option>
+            <option>青</option>
+        </select>
+    </p>
+    <p><input type="button" value="サブウィンドウを閉じる" onclick="closeWin()"></p>
+</body>
+</html>

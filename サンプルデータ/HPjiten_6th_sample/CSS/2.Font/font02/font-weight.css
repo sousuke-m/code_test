@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+p {
+	margin: 0;
+	padding: 0;
+}
+p#note {
+	color: #cc0000;
+}
+div {
+	margin-top: 1em;
+}
+#sample1 {
+	font-weight: bold;
+}
+#sample2 {
+	font-weight: bolder;
+}
+#sample3 {
+	font-weight: lighter;
+}
+#sample4 {
+	font-weight: 100;
+}
+#sample5 {
+	font-weight: 200;
+}
+#sample6 {
+	font-weight: 300;
+}
+#sample7 {
+	font-weight: 400;
+}
+#sample8 {
+	font-weight: 500;
+}
+#sample9 {
+	font-weight: 600;
+}
+#sample10 {
+	font-weight: 700;
+}
+#sample11 {
+	font-weight: 800;
+}
+#sample12 {
+	font-weight: 900;
+}

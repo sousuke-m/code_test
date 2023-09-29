@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+	margin: 30px;
+}
+h1 {
+	font-family: Impact, sans-serif;
+	font-size: 22px;
+}
+span {
+	display: block;
+} 
+span::before {
+	content: url("ball_blue.gif")
+}
+span.new::after {
+	content: " new ";
+	color: #ff0000;
+	font-size: smaller;
+}
+a::after {
+	content: attr(href);
+}
+#note {
+	font-size: smaller;
+}

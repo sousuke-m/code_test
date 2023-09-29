@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+ul {
+	list-style-type: square;
+	list-style-image: url("ball_blue.gif");
+}
+li#red {
+	list-style-type: square;
+	list-style-image: url("ball_red.gif");
+}
+li#none {
+	list-style-type: square;
+	list-style-image: none;
+}

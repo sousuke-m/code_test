@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>メディアに字幕を入れたいい</title>
+</head>
+<body>
+<video controls>
+	<source src="sample_video.webm" type="video/webm">
+	<source src="sample_video.mp4" type="video/mp4">
+      <track src="jatrack.vtt" label="日本語" kind="subtitles" srclang="ja" default>
+      <track src="entrack.vtt" label="English" kind="subtitles" srclang="en">
+      <track src="frtrack.vtt" label="French" kind="subtitles" srclang="fr">
+	<p>ご利用のブラウザでは再生できません。動画ファイルを<a href="sample_video.mp4">ダウンロード</a>してください。</p>
+</video>
+</body>
+</html>

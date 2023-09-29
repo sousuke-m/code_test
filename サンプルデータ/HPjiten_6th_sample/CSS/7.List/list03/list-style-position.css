@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+}
+li {
+	background-color: #ffff99;
+}
+ul.sample1 {
+	list-style-position : outside;
+}
+ul.sample2 {
+	list-style-position : inside;
+}

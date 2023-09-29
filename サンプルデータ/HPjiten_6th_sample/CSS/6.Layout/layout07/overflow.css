@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+#sample1 {
+	margin: 20px;
+	border: #0033cc solid 1px;
+	width: 250px;
+	height: 120px;
+	overflow-x: scroll;
+	white-space: nowrap;
+}
+#sample2 {
+	margin: 20px;
+	border: #0033cc solid 1px;
+	width: 250px;
+	height: 120px;
+	overflow-y: auto;
+}
+#sample3 {
+	margin: 20px;
+	border: #0033cc solid 1px;
+	width: 250px;
+	height: 120px;
+	overflow: scroll;
+}

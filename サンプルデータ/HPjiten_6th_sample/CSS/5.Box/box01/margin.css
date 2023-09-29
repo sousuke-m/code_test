@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	line-height:1.5em;
+}
+div {
+	padding: 1em;
+	border: medium solid #ff3366;
+	background-color: #ffff99;
+	text-align: center;
+}
+#sample1 {
+	margin: 60px 25% 5px 5%;
+}
+#sample2 {
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+}

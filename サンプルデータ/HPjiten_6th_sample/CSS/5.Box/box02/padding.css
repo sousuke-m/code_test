@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+div {
+	margin-bottom: 20px;
+	border: medium solid #ff3366;
+	background-color: #ffff99;
+	line-height: 1.5em;
+}
+#sample1 {
+	padding-top: 50px;
+	padding-right: 30%;
+	padding-bottom: 50px;
+	padding-left: 10%;
+}
+#sample2 {
+	padding: 20px 0 50px;
+}

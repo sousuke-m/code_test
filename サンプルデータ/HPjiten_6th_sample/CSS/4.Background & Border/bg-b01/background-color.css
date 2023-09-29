@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+	background-color: lightcyan;		/* 背景色：薄いシアン */ 
+}
+div {
+	margin-top: 40px; 
+	margin-left: 30px;
+	border-left: 2px solid #ec9800;
+	width: 500px;
+	background-color: #fff; 		/* 背景色：白*/
+}
+h1 {
+	padding-left: 3px;
+	color: #ffffff;
+	background-color: #ec9800;		/* 背景色：オレンジ */
+	font-family: "Times New Roman", serif;
+}
+p {
+	padding: 0px 10px 5px 10px;
+	line-height: 150%;
+	color: #696969;	
+}
+.us {
+	background-color: rgb(255, 215, 0);	/* 背景色：ゴールド */
+}
+

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+div {
+	margin: 1.5em;
+	padding: 0.5em;
+	width: 150px;
+	text-align: center;
+	outline-width: 4px;
+	outline-color: #006699;
+}
+#none {
+	outline-style: none;
+}
+#dotted {
+	outline-style: dotted;
+}
+#dashed {
+	outline-style: dashed;
+}
+#solid {
+	outline-style: solid;
+}
+#double {
+	outline-style: double;
+}
+#groove {
+	outline-style: groove;
+}
+#ridge {
+	outline-style: ridge;
+}
+#inset {
+	outline-style: inset;
+}
+#outset {
+	outline-style: outset;
+}
+input:focus {
+	outline: #cc0066 double 3px;
+}

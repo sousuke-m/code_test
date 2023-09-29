@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+div {
+	line-height: 150%;
+	font-family: Arial, Hervetica, sans-serif;
+}
+#sample1 {
+	color: #cc3366;
+	text-decoration: overline underline;
+}
+#sample2 {
+	color: #009966;
+	text-decoration: line-through;
+}
+

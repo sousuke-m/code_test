@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+div {
+	margin-top: 40px;
+	margin-left: 30px;
+	width: 500px;
+}
+h1 {
+	color: #009da5;		/* 文字色： ターコイズブルー */
+	font-family: "Comic Sans MS", san-serif;
+}
+p { 
+	line-height: 150%;
+	color: dimgray;		/* 文字色：グレー */
+}
+.us {
+	color: rgb(255, 140, 000);	/* 文字色：ダークオレンジ */
+}
+

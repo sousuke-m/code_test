@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+	line-height: 150%;
+}
+ul {
+	list-style : disc url("ico_clover2.gif") inside;
+}
+li {
+	background-color: #ff9933;
+}
+#pname {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+}

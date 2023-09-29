@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>フィルタをかけたい</title>
+<link rel="stylesheet" href="filter.css">
+</head>
+<body>
+<table>
+<tr>
+	<th><code>blur()</code></th>
+	<th><code>brightness()</code></th>
+	<th><code>contrast()</code></th>
+	<th><code>drop-shadow()</code></th>
+</tr>
+<tr>
+	<td><img src="balloon.jpg" id="sample1"></td>
+	<td><img src="balloon.jpg" id="sample2"></td>
+	<td><img src="balloon.jpg" id="sample3"></td>
+	<td><img src="balloon.jpg" id="sample4"></td>
+</tr>
+<tr>
+	<th><code>grayscale()</code></th>
+	<th><code>hue-rotate()</code></th>
+	<th><code>invert()</code></th>
+	<th><code>opacity()</code></th>
+</tr>
+<tr>
+	<td><img src="balloon.jpg" id="sample5"></td>
+	<td><img src="balloon.jpg" id="sample6"></td>
+	<td><img src="balloon.jpg" id="sample7"></td>
+	<td><img src="balloon.jpg" id="sample8"></td>
+</tr>
+<tr>
+	<th><code>saturate()</code></th>
+	<th><code>sepia()</code></th>
+	<th><code>url()</code></th>
+	<th></th>
+</tr>
+<tr>
+	<td><img src="balloon.jpg" id="sample9"></td>
+	<td><img src="balloon.jpg" id="sample10"></td>
+	<td><img src="balloon.jpg" id="sample11"></td>
+	<td></td>
+</tr>
+</table>
+
+<svg>
+  <filter id="svgBlur" x="-5%" y="-5%" width="110%" height="110%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="5"/>
+  </filter>
+</svg>
+
+</body>
+</html>

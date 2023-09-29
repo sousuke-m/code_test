@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+div {
+	margin: 10px;
+	width: 250px;
+	height: 120px;
+	color: #ffffff;
+	font-weight: bold;
+}
+#sample1 { 
+	background: linear-gradient(crimson, yellow);
+}
+#sample2 {
+	background: linear-gradient(to bottom right, crimson, yellow);
+}
+#sample3 {
+	background: linear-gradient(315deg, crimson, yellow);
+}
+#sample4 {
+	background: linear-gradient(to right, violet, crimson 20%, yellow 70%, green);
+}

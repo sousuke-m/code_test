@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+	line-height: 1.8em;
+}
+h2 {
+	text-align: center;
+}
+.point {
+	font-weight: bolder;
+}
+.always {
+	page-break-after: always;
+}
+.left {
+	page-break-before: left;
+}

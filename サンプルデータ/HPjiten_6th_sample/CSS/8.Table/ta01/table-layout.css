@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+table.sample1 {
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 2em;
+}
+table.sample2 {
+	table-layout: auto;
+	width: 100%;
+}
+table,th,td {
+	border: 2px solid #ff6600;
+}
+caption {
+	font-family: helvetica, sans-serif;
+	font-weight: bolder;
+}

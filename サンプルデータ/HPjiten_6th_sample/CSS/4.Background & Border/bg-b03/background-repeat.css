@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+	background-image: url("bg4.jpg");
+	background-repeat: no-repeat repeat;
+}
+div {
+	margin-top: 40px;
+	margin-left: 150px;
+	width: 500px;
+}
+h1 {
+	padding-left: 3px;
+	color: #009da5;
+	font-family: "Times New Roman", serif;
+	font-style: italic;
+}
+p { 
+	padding: 0px 10px 5px 10px;
+	line-height: 150%;
+	color: #696969;
+}
+.us {
+	background-color: #ffd700;
+	background-image: url("bg3.gif");
+}

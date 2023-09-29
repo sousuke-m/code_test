@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>要素の表示形式を指定したい</title>
+<link rel="stylesheet" href="display.css">
+</head>
+<body>
+<div class="container">
+	<p class="title">display: inline</p>
+	<p>クラシック音楽界の3B</p>
+	<ul id="sample1">
+		<li>バッハ（Bach）</li>
+		<li>ベートーベン（Beethoven）</li>
+		<li>ブラームス（Brahms）</li>
+	</ul>
+</div>
+<div class="container">
+	<p class="title">display: block</p>
+	<p>クラシック音楽界で3Bといえば、<a href="bach.html">バッハ（Bach）</a><a href="beethoven.html">ベートーベン（Beethoven）</a><a href="brahms.html">ブラームス（Brahms）</a>の3人です。</p>
+</div>
+<div class="container">
+	<p class="title">display: inline-block</p>
+	<ul id="sample2">
+		<li>バッハ（Bach）</li>
+		<li>ベートーベン（Beethoven）</li>
+		<li>ブラームス（Brahms）</li>
+	</ul>
+</div>
+<div class="container">
+	<p class="title">display: list-item</p>
+	<p>クラシック音楽界で3Bといえば、<span>バッハ（Bach）</span><span>ベートーベン（Beethoven）</span><span>ブラームス（Brahms）</span>の3人です。</p>
+</div>
+<div class="container">
+	<p class="title">display: table</p>
+	<div class="table">
+	<div class="caption">クラシック音楽界の3B</div>
+		<div class="tr">
+			<div class="th">作曲家</div>
+			<div class="th">生没年</div>
+		</div>
+		<div class="tr">
+			<div class="td">バッハ（Bach）</div>
+			<div class="td">1685-1750</div>
+		</div>
+		<div class="tr">
+			<div class="td">ベートーベン（Beethoven）</div>
+			<div class="td">1770-1827</div>
+		</div>
+		<div class="tr">
+			<div class="td">ブラームス（Brahms）</div>
+			<div class="td">1833-1897</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<p class="title">display: none</p>
+	<p><img src="clover.jpg" alt="" width="103" height="102"></p>
+</div>
+</body>
+</html>

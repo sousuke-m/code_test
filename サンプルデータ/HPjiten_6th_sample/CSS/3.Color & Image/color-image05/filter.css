@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+th code {
+	font-family: Arial, Helvetica, sans-serif;
+}
+td {
+	padding: 0 10px 15px 10px;
+	text-align: center;
+}
+img {
+	width: 150px;
+	height: 150px;
+}
+#sample1 {
+	filter: blur(5px);
+}
+#sample2 {
+	filter: brightness(50%);
+}
+#sample3 {
+	filter: contrast(200%);
+}
+#sample4 {
+	filter: drop-shadow(15px 15px 10px black);
+}
+#sample5 {
+	filter: grayscale(100%);
+}
+#sample6 {
+	filter: hue-rotate(90deg);
+}
+#sample7 {
+	filter: invert(100%);
+}
+#sample8 {
+	filter: opacity(50%);
+}
+#sample9 {
+	filter: saturate(200%);
+}
+#sample10 {
+	filter: sepia(100%);
+}
+#sample11 {
+	filter: url("#svgBlur");
+}

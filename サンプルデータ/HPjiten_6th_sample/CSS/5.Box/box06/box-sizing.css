@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+div {
+	margin: 30px auto;
+	padding: 20px;
+	border: 20px #ff6633 solid;
+	width: 300px;
+	height: 150px;
+	background-color: #ffcc33;
+}
+code {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+#sample1 {
+	box-sizing: content-box;
+}
+#sample2 {
+	box-sizing: border-box;
+}
+
+

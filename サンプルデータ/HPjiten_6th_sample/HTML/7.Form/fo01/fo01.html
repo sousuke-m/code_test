@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>入力フォームを作りたい</title>
+</head>
+<body>
+<form action="cgi-bin/formsample.cgi" method="post">
+	<p>
+		<label>名前：<input type="text" name="username" required></label>
+		<label>年齢：<input type="number" name="age" min="0"></label>
+	</p>
+	<p><label for="job">職業：</label>
+		<select name="job" id="job">
+			<option value="office">会社員</option>
+			<option value="public">公務員</option>
+			<option value="self">自営業・自由業</option>
+			<option value="student">学生</option>
+			<option value="house">主婦</option>
+			<option value="other">その他</option>
+		</select>
+	</p>
+	<p><label>電話番号：<input type="tel" name="tel"></label></p>
+	<p><label>E-mail：<input type="email" name="email"></label></p>
+	<p><label><input type="checkbox" name="dm" checked>DMの送信を希望する</label></p>
+	<p><input type="reset"><input type="submit"></p>
+</form>
+</body>
+</html>

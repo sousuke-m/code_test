@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+.sample {	
+	line-height: 150%;
+	font-family: monospace;
+	white-space: pre;
+}

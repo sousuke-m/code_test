@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+div {
+	width: 150px;
+	height: 150px;
+	color: #ffffff;
+	background-color: #ff6347;
+	font: 24px impact;
+}
+

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+cite {
+	font-style: normal;
+}
+blockquote{
+	padding: 0.5em;
+	border-top: 1px solid #999999;
+	border-right: 1px solid #999999;
+	border-bottom: 6px solid #33cc99;
+	border-left: 10px double #33cc99;
+	width: 400px;
+	line-height: 120%;
+}

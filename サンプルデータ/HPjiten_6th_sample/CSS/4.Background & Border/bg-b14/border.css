@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#sample {
+	margin: 20px;
+	width: 230px;
+	border: 4px double #6699cc;
+	color: #333333;
+}
+#img {
+	text-align: center;
+}
+#profile {
+	padding: 8px;
+	border-top: 2px dotted #999999;
+	line-height: 130%;
+}

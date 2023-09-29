@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+div {
+	margin: 30px;
+	padding: 20px;
+	width: 250px;
+	height: 100px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+#sample1 {
+	box-shadow: 4px 4px navy, 10px 5px 10px 10px gray;
+}
+#sample2 {
+	box-shadow: 10px 5px 10px 10px gold inset;
+}

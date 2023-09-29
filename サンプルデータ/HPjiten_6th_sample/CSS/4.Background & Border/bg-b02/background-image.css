@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+	background-color: #ffe4e1;
+	background-image: url("bg1.png");
+}
+div {
+	margin-top: 40px;
+	margin-left: 30px;
+	width: 500px;
+	background-color: #ffffff;
+}
+h1 {
+	padding-left: 5px;
+	color: #009da5;
+	font-family: "Comic Sans MS", san-serif;
+}
+p { 
+	padding: 0px 10px 5px 10px;
+	line-height: 150%;
+	color: #696969;
+}
+.us {
+	background-color: #ffd700;
+	background-image: url("bg3.gif");
+}
+

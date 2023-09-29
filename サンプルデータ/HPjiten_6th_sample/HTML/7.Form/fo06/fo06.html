@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>リストボックスを作りたい</title>
+</head>
+<body>
+<form action="cgi-bin/formsample.cgi" method="post">
+	<p>当店を選んだ理由は？<br>（3行だけ表示）</p>
+	<p>
+	<select name="good1" size="3">
+		<option value="1">知名度</option>
+		<option value="2">品質</option>
+		<option value="3">品揃え</option>
+		<option value="4">価格</option>
+		<option value="5">その他</option>
+	</select>
+	</p>
+	<p>当店を選んだ理由は？<br>（最初に選択されている項目を指定。複数選択も可能）</p>
+	<p>
+	<select name="good2" multiple>
+		<option value="1">知名度</option>
+		<option value="2">品質</option>
+		<option value="3">品揃え</option>
+		<option value="4">価格</option>
+		<option value="5" selected>その他</option>
+	</select>
+	</p>
+</form>
+</body>
+</html>

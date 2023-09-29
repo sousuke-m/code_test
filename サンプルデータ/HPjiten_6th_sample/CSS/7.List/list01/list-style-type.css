@@ -1,0 +1,74 @@
+﻿@charset "UTF-8";
+
+ul#sample1 {
+	list-style-type: none;
+}
+ul#sample2 {
+	list-style-type: disc;
+}
+ul#sample3 {
+	list-style-type: circle;
+}
+ul#sample4 {
+	list-style-type: square;
+}
+ol#sample5 {
+	list-style-type: decimal;
+}
+ol#sample6 {
+	list-style-type: decimal-leading-zero;
+}
+ol#sample7 {
+	list-style-type: lower-roman;
+}
+ol#sample8 {
+	list-style-type: upper-roman;
+}
+ol#sample9 {
+	list-style-type: lower-greek;
+}
+ol#sample10 {
+	list-style-type: lower-alpha;
+}
+ol#sample11 {
+	list-style-type: lower-latin;
+}
+ol#sample12 {
+	list-style-type: upper-alpha;
+}
+ol#sample13 {
+	list-style-type: upper-latin
+}
+ol#sample14 {
+	list-style-type: armenian;
+}
+ol#sample15	{
+	list-style-type: georgian;
+}
+ol#sample16	{
+	list-style-type: hebrew;
+}
+ol#sample17	{
+	list-style-type: cjk-ideographic;
+}
+ol#sample18	{
+	list-style-type: hiragana;
+}
+ol#sample19	{
+	list-style-type: katakana;
+}
+ol#sample20	{
+	list-style-type: hiragana-iroha;
+}
+ol#sample21	{
+	list-style-type: katakana-iroha;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse
+}
+td { 
+	width: 25%;
+	border: 1px dotted gray;
+}

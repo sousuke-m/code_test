@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+div {
+	line-height: 1.7em;
+	columns: 2 20em; /* column-width: 2; column-count: 20em; */
+}
+p {
+	margin: 0;
+}

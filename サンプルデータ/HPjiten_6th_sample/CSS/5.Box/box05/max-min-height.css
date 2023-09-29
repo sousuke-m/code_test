@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+p {
+	float: left;
+	margin-right: 20px;
+	padding: 0.5em;
+	width: 300px;
+	min-height: 200px;
+	max-height: 400px;
+	line-height: 1.5em;
+	background: #ffcccc;
+}
+

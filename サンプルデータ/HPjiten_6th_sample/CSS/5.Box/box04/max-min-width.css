@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+p {
+	padding: 0.5em;
+	width: 50%;
+	min-width: 200px;
+	max-width: 400px;
+	line-height: 1.5em;
+	background: #ccffcc;
+}
+

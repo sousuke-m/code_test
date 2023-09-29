@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+h1 {
+	font: x-large/150% Impact, sans-serif;
+	color: #990000;
+}
+div {
+	margin: 1em;
+	padding: 1em;
+	border: 1px solid #cc6699;
+	background-color: #fff0f0;
+}
+.sample1 {
+	font: caption;
+}
+.sample2 {
+	font: icon;
+}
+.sample3 {
+	font: menu;
+}
+.sample4 {
+	font: message-box;
+}
+.sample5 {
+	font: small-caption;
+}
+.sample6 {
+	font: status-bar;
+}

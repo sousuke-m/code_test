@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+div {
+	font-weight: bold;
+	font-size: larger;
+}
+#container {
+	width: 480px;
+	height: 150px;
+	border: 2px solid #808080;
+	display: flex;
+	flex-direction: row-reverse;
+}
+#item1 {		
+	background-color: #ff9999;
+	width: 100px;
+}
+#item2 {	
+	background-color: #ffff66;
+	width: 200px;
+}
+#item3 {
+	background-color: #99ffcc;
+	width: 100px;
+}
+#item4 {
+	background-color: #ccccff;
+	width: 80px;
+}

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+	background-color: #ffe4e1;
+}
+div {
+	margin-top: 60px;
+	margin-left: 60px;
+	width: 500px;
+	height: 400px;
+	background-color: #ffffff;
+	background-image: url("sheep.png");
+	background-repeat: no-repeat;
+	background-position: 300px 200px;
+}
+h1 {
+	padding-left: 5px;
+	color: #009da5;
+	font-family: "Comic Sans MS", san-serif;
+}
+p { 
+	padding: 0px 10px 5px 10px;
+	line-height: 150%;
+	color: #696969;
+}
+

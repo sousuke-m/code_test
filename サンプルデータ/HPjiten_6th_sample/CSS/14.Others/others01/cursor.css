@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+div {
+	margin-top: 30px; 
+	text-align: center;
+}
+img {
+	cursor: crosshair;
+}
+a:hover {
+	cursor: url("cat.cur"), url("cat.png"), auto;
+}
